@@ -34,7 +34,7 @@ const Navbar = () => {
   const [showSearch, setShowSearch] = useState(false);
 
   return (
-    <div className="">
+    <div className=" sticky top-0 z-[999999]">
       <div className=" hidden bg-black text-white px-10 py-3 md:flex items-center justify-between">
         <div className=" flex gap-2 items-center w-fit">
           <div className=" bg-blue-600 rounded-full p-3 w-fit">

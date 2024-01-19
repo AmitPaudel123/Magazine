@@ -1,73 +1,146 @@
 import React from "react";
+import Image from "next/image";
+import { GrMail } from "react-icons/gr";
+import { FaPhone } from "react-icons/fa6";
+import { FaShareAlt } from "react-icons/fa";
 
+import mapImage from "/public/map.jpg";
+import {
+  FaFacebookF,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaLocationArrow,
+  FaLocationPin,
+  FaMapLocation,
+  FaMessage,
+  FaRegMessage,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
+import { IoLocation } from "react-icons/io5";
 const contactPage = () => {
   return (
-    <div>
-      <div className=" text-5xl">Contact page</div>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque culpa
-      voluptate ad aut accusantium facilis voluptatum dignissimos vero? Quos
-      officiis reiciendis, odit explicabo praesentium illum! Temporibus nobis
-      quisquam vel magni? Quae repellat velit ab praesentium quod nihil, non
-      officiis, molestias architecto veniam officia esse iure laboriosam
-      explicabo neque! Expedita in ex esse aliquam cum iste voluptate eveniet
-      architecto quo iusto? Quibusdam dolores dignissimos, atque aliquid ad
-      repellendus odit? Ad perspiciatis placeat aliquid obcaecati odit nulla
-      expedita quam ab impedit excepturi tenetur, error suscipit in quas animi.
-      Itaque, porro ea. Ducimus! Nulla et beatae voluptatibus natus placeat
-      odio. Asperiores, expedita commodi libero itaque, odit, vero earum quia
-      aspernatur magnam quo aliquid fugiat iusto amet. Officiis, ex? Atque
-      nesciunt consequuntur doloremque quis. Similique aut ratione voluptates
-      labore, neque nostrum velit deleniti beatae et, voluptas aliquid explicabo
-      dignissimos placeat esse necessitatibus iusto animi quibusdam facilis
-      temporibus quam. Delectus similique fugit officia non distinctio. Pariatur
-      dicta voluptatum illum, nesciunt quidem nam veritatis ab optio eos
-      corporis architecto totam! Et amet, magni doloribus nisi officia cum nemo
-      numquam aut cupiditate similique, incidunt nam magnam facilis. Quod
-      tempora, animi quas iusto ea hic. Distinctio quasi iste obcaecati eligendi
-      asperiores, maiores molestias. Earum maxime beatae, veniam minima aliquid
-      saepe, voluptatem, dolores nemo enim unde ea doloremque soluta. At officia
-      molestias id ipsa eius similique facere sapiente iusto perspiciatis,
-      eligendi consequuntur! At minus nam commodi qui iusto soluta labore quam
-      deserunt doloribus excepturi? Totam suscipit sequi perferendis ex. A, ad
-      molestiae officia animi accusamus cupiditate expedita harum maiores cumque
-      ex dolore aliquam veniam autem dolores quaerat unde quas earum nihil
-      itaque nemo eaque quia ipsa? Ullam, ratione labore. Asperiores modi cumque
-      sed, saepe provident, explicabo pariatur necessitatibus animi nemo in
-      consectetur qui, earum mollitia. Enim optio inventore impedit corporis
-      atque, obcaecati aliquam reprehenderit fuga doloribus ea minima nesciunt!
-      Voluptatum a labore sint, qui dolorum obcaecati sit dolores incidunt
-      tempora quasi facere ipsa ea porro! Alias beatae dolor rerum officia
-      repudiandae nobis aliquid quaerat ab asperiores, pariatur explicabo
-      veniam. Nam, aliquam velit! Vitae voluptatibus numquam quis excepturi
-      recusandae dolores eligendi voluptatum deserunt dolor, est ad corrupti
-      illo eaque fugiat labore. Obcaecati, laudantium. Excepturi accusantium
-      fugit quaerat similique hic! Perferendis. Consectetur exercitationem
-      dolore deleniti repellat fugiat, aspernatur, consequuntur ipsum omnis,
-      saepe minus non eaque unde architecto officia rerum reiciendis odio
-      temporibus est cumque delectus laudantium officiis voluptatum atque! Sint,
-      quod? Qui quibusdam quaerat ut non rerum magnam ipsum dolor explicabo
-      nesciunt, earum nostrum hic eveniet ipsam facere? Doloremque, velit!
-      Molestias autem consectetur id aliquid delectus veritatis, sequi dolores
-      ad? Provident. Atque, natus! Qui reiciendis earum aliquam, atque quaerat
-      voluptates commodi vel dolores odio, non est ex cupiditate voluptatem
-      saepe eum hic? Voluptatibus voluptatem adipisci facilis consectetur rem
-      molestias consequatur? Voluptates! Aliquid ipsam tenetur in excepturi
-      voluptatibus recusandae nobis modi, quisquam sint suscipit distinctio quia
-      asperiores a perspiciatis, ipsa explicabo error laudantium, odit ducimus
-      voluptate esse. Earum nisi molestias unde dolores. Labore delectus animi
-      dolorum iusto voluptatibus nobis, alias vero facere doloribus eum impedit
-      accusantium praesentium, tempore consectetur, repellendus quae quidem sunt
-      dolore veniam odio neque unde inventore! Minus, excepturi ratione!
-      Delectus iste non sapiente error ab tempore odio adipisci excepturi natus
-      reprehenderit. Temporibus tempore minima necessitatibus facilis eligendi
-      amet eius nihil rerum vel accusamus reiciendis excepturi totam nulla,
-      libero ad. Repellat dolore incidunt sit ullam sed dolorem, a quod cumque,
-      commodi vero corporis voluptatem distinctio sequi asperiores labore unde
-      rerum alias dignissimos quisquam consequatur consectetur soluta eum
-      laudantium sint! Reprehenderit? Nihil quam quasi odit impedit repellat hic
-      labore, unde a. Magni aliquid iure officiis earum cumque, maxime, nihil,
-      modi expedita exercitationem quo quae repudiandae eum blanditiis provident
-      corrupti qui consectetur!
+    <div className=" bg-slate-200 rounded-lg mx-5 p-6 lg:mx-10 xl:mx-20 my-10 flex flex-col lg:flex-row gap-10">
+      {/* content 1 */}
+      <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[35%]">
+        <div className=" text-4xl font-semibold my-2">
+          General costumer care & technical support
+        </div>
+        <div className=" text-justify my-6">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quo
+          voluptate nostrum dolore corrupti quaerat, a tenetur maxime atque eius
+          iure beatae quasi ipsum qui mollitia similique recusandae consequuntur
+          eveniet! Iusto debitis ex facere est praesentium, rerum minus eos
+          repellat quasi quis ad! Impedit, laboriosam libero! Iure vero facere,
+          a molestias soluta sequi quasi eaque temporibus, nulla eius, error
+        </div>
+        <Image
+          src={mapImage}
+          layout="intrinsic"
+          width={450}
+          className=" rounded-lg"
+        />
+      </div>
+
+      {/* content 2 */}
+      <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[60%]">
+        <form action="">
+          <div className=" grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-6">
+            <input
+              type="text"
+              maxLength={25}
+              placeholder="Enter name"
+              className=" px-3 py-4 rounded-md"
+            />
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className=" px-3 py-4 rounded-md"
+            />
+            <input
+              type="number"
+              placeholder="Enter your Phone"
+              className=" px-3 py-4 rounded-md"
+            />
+            <input
+              type="text"
+              maxLength={50}
+              placeholder="Subject"
+              className=" px-3 py-4 rounded-md"
+            />
+          </div>
+
+          <div className=" grid my-6">
+            <textarea
+              name=""
+              id=""
+              cols="5"
+              rows="5"
+              placeholder="Message"
+              className=" p-3 rounded-lg"
+            ></textarea>
+          </div>
+
+          <button className=" bg-slate-300 border-blue-600 border-[0.6px] active:ring-4 rounded-md px-2 py-3 font-semibold hover:text-blue-600 w-full">
+            Submit Now
+          </button>
+        </form>
+
+        <div className=" grid lg:grid-rows-2 lg:grid-cols-2 grid-rows-1 grid-cols-1 gap-6 mt-10">
+          <div className=" px-5 py-4 rounded-lg bg-slate-100 ">
+            <div className="flex items-start gap-3">
+              <IoLocation className=" text-blue-600 w-8 h-8" />
+              <div className=" flex flex-col gap-2">
+                <div className=" text-xl font-semibold">Address</div>
+                <div className=" text-lg text-slate-500">
+                  Shantinagar, Baneshwor
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className=" px-5 py-4 rounded-lg bg-slate-100 ">
+            <div className="flex items-start gap-3">
+              <GrMail className=" text-blue-600 w-8 h-8" />
+              <div className=" flex flex-col gap-3">
+                <div className=" text-xl font-semibold">Mail Us</div>
+                <div className=" text-lg text-slate-500">
+                  newesers123@gmail.com{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className=" px-5 py-4 rounded-lg bg-slate-100 flex items-start gap-3">
+            <div className="flex items-start gap-3">
+              <FaPhone className=" text-blue-600 w-8 h-8" />
+
+              <div className=" flex flex-col gap-3">
+                <div className=" text-xl font-semibold">Telephone</div>
+                <div className=" text-lg text-slate-500">046-530-616 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className=" px-5 py-4 rounded-lg bg-slate-100">
+            <div className="flex items-start gap-3">
+              <FaShareAlt className=" text-blue-600 w-8 h-8" />
+
+              <div className=" flex flex-col gap-3">
+                <div className=" text-xl font-semibold">Share</div>
+                <div className=" text-lg text-slate-500">
+                  <div className=" flex gap-3 items-center">
+                    <FaFacebookF className=" cursor-pointer" />
+                    <FaYoutube className=" cursor-pointer" />
+                    <FaTwitter className=" cursor-pointer" />
+                    <FaLinkedinIn className=" cursor-pointer" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

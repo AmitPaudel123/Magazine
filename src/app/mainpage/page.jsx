@@ -17,7 +17,6 @@ const MainPage = () => {
     <>
       {/* image banner */}
       <div className=" flex flex-wrap flex-col md:flex-row justify-around px-10 md:px-0 gap-4 home-banner py-10">
-        {" "}
         <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
           <div className=" flex items-center gap-6">
             <Image width={80} className="rounded-full" src={fashion} />

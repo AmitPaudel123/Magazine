@@ -21,16 +21,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 .bg-silver-transparent {
   background-color: rgba(
     195,
@@ -45,4 +35,11 @@ body {
   border-radius: 10px;
   background-color: rgba(237, 237, 235, 0.7);
   width: fit-content;
+}
+
+.detail-banner {
+  background-image: linear-gradient(
+    rgba(20, 20, 251, 0.42),
+    rgba(255, 255, 255, 0.434)
+  );
 }
