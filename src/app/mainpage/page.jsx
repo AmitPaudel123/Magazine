@@ -9,12 +9,14 @@ import technology from "./homeImg/technology.jpg";
 
 import { BsCalendar2DateFill } from "react-icons/bs";
 import HomeComponent1 from "@/components/home-component1/page";
+import HomeBanner from "@/components/homw-sub-banner/page";
+import HomeSlider from "@/components/home-slider/page";
 
 const MainPage = () => {
   return (
     <>
       {/* image banner */}
-      <div className=" flex flex-wrap flex-col md:flex-row justify-around gap-4 home-banner py-10">
+      <div className=" flex flex-wrap flex-col md:flex-row justify-around px-10 md:px-0 gap-4 home-banner py-10">
         {" "}
         <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
           <div className=" flex items-center gap-6">
@@ -96,6 +98,8 @@ const MainPage = () => {
       </div>
 
       <HomeComponent1 />
+      <HomeBanner />
+      <HomeSlider />
     </>
   );
 };

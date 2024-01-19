@@ -59,14 +59,20 @@ const HomeComponent1 = () => {
         <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[70%]">
           {/* subcontent1 */}
           <div>
-            <Image src={banner1} width={850} className=" rounded-lg" />
-            <div className=" flex gap-4 absolute mt-[-2rem] mx-5 text-white">
+            <div className=" overflow-hidden rounded-lg">
+              <Image
+                src={banner1}
+                width={850}
+                className=" rounded-lg hover:scale-110 hover:transition-transform"
+              />
+            </div>
+            <div className=" flex gap-4 absolute mt-[-3rem] md:mt-[-2rem] mx-5 text-white">
               <p> 05 minute read</p>
               <p>1.6K views</p>
               <p>06 comments</p>
               <p> 24 shares</p>
             </div>
-            <p className=" text-5xl font-bold hover:text-blue-600 cursor-pointer my-4">
+            <p className=" text-3xl md:text-4xl lg:text-5xl font-bold hover:text-blue-600 cursor-pointer my-4">
               Lorem Ipsum is simply dummy text of the printing
             </p>
             <hr className=" border-[1.5px]" />
@@ -78,10 +84,17 @@ const HomeComponent1 = () => {
             </p>
           </div>
           {/* subcontent 2 */}
-          <div className=" bg-slate-200 rounded-lg p-5 mt-5">
+          <div className=" bg-slate-200 rounded-lg px-5 py-10 mt-10">
             <div className=" text-2xl font-semibold mb-4">Top Story</div>
             <div className=" flex flex-col lg:flex-row gap-5 items-center">
-              <Image src={news2} width={350} className=" rounded-lg" />
+              <div className=" w-full overflow-hidden rounded-lg">
+                <Image
+                  src={news2}
+                  width={350}
+                  layout="responsive"
+                  className=" rounded-lg hover:transition-all hover:scale-125"
+                />
+              </div>
               <div>
                 <p className=" text-xl md:text-3xl font-semibold hover:text-blue-600 cursor-pointer mb-4">
                   {" "}
@@ -102,7 +115,13 @@ const HomeComponent1 = () => {
         {/* content2 */}
         <div className="w-[90%] lg:w-fit mx-auto lg:mx-0 bg-slate-200 rounded-lg p-5">
           <div>
-            <Image src={news3} width={350} className=" rounded-lg" />
+            <div className=" w-full overflow-hidden rounded-lg">
+              <Image
+                src={news3}
+                width={350}
+                className=" rounded-lg hover:scale-125 hover:transition-all"
+              />
+            </div>
             <p className=" text-2xl font-bold my-4">
               Get the best market news here
             </p>
@@ -111,16 +130,20 @@ const HomeComponent1 = () => {
             </p>
             <p className=" text-lg text-slate-500 font-semibold">3.5k views</p>
 
-            {marketNews.map((data, index) => {
+            {marketNews.map((data) => {
               const { id, url, text, time, views } = data;
               return (
                 <div key={id}>
                   <div className=" flex gap-4 items-center my-3">
-                    <Image
-                      src={url}
-                      width={100}
-                      className=" rounded-lg w-full"
-                    />
+                    <div className=" w-full overflow-hidden rounded-lg">
+                      <Image
+                        src={url}
+                        width={100}
+                        className=" rounded-lg w-full hover:scale-110 hover:transition-all"
+                        layout="intrinsic"
+                      />
+                    </div>
+
                     <div>
                       <p className=" font-bold">{text}</p>
                       <p className=" text-slate-400">{time}</p>

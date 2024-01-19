@@ -39,3 +39,10 @@ body {
     0.7
   ); /* Adjust the alpha value as needed */
 }
+
+.slick-slide > div {
+  margin: 0 15px;
+  border-radius: 10px;
+  background-color: rgba(237, 237, 235, 0.7);
+  width: fit-content;
+}

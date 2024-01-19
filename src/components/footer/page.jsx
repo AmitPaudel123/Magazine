@@ -25,7 +25,7 @@ const Footer = () => {
               placeholder="example@123gmail.com"
               className=" py-4 px-5 rounded-l-full w-[70%] lg:w-[70%] text-black"
             />
-            <button className=" text-white bg-blue-600 py-4 px-4 ml[-1rem] rounded-r-full font-semibold">
+            <button className=" text-white bg-blue-600 py-4 px-2 md:px-4 ml[-1rem] rounded-r-full font-semibold">
               Subscribe{" "}
             </button>
           </div>
@@ -136,14 +136,56 @@ const Footer = () => {
               <p className=" text-2xl font-bold mb-5">Our Gallery</p>
               <div className=" flex flex-col gap-3">
                 <div className=" flex gap-3">
-                  <Image src={footer1} width={80} className=" rounded-lg" />
-                  <Image src={footer2} width={80} className=" rounded-lg" />
-                  <Image src={footer3} width={80} className=" rounded-lg" />
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer1}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer2}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer3}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
                 </div>{" "}
                 <div className=" flex gap-3">
-                  <Image src={footer4} width={80} className=" rounded-lg" />
-                  <Image src={footer5} width={80} className=" rounded-lg" />
-                  <Image src={footer6} width={80} className=" rounded-lg" />
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer4}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer5}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
+                  <div className=" rounded-lg w-full overflow-hidden">
+                    {" "}
+                    <Image
+                      src={footer6}
+                      width={80}
+                      className=" rounded-lg hover:scale-110 hover:transition-all"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
