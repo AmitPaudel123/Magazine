@@ -23,13 +23,7 @@ const HomeComponent1 = () => {
       time: "16 min read",
       views: "12k vews",
     },
-    {
-      id: Math.random().toString(),
-      url: news2,
-      text: "Get the best market news",
-      time: "60 min read",
-      views: "2k vews",
-    },
+
     {
       id: Math.random().toString(),
       url: news3,
@@ -54,9 +48,9 @@ const HomeComponent1 = () => {
   ];
   return (
     <div className=" my-10 lg:px-14">
-      <div className=" flex flex-col lg:flex-row  justify-between gap-4 lg:px-20">
+      <div className=" flex flex-col lg:flex-row  justify-between gap-4 lg:px-16">
         {/* content 1 */}
-        <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[70%]">
+        <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[75%]">
           {/* subcontent1 */}
           <div>
             <div className=" overflow-hidden rounded-lg">
@@ -90,13 +84,12 @@ const HomeComponent1 = () => {
               <div className=" w-full overflow-hidden rounded-lg">
                 <Image
                   src={news2}
-                  width={350}
                   layout="responsive"
                   className=" rounded-lg hover:transition-all hover:scale-125"
                 />
               </div>
               <div>
-                <p className=" text-xl md:text-3xl font-semibold hover:text-blue-600 cursor-pointer mb-4">
+                <p className=" text-xl md:text-2xl font-semibold hover:text-blue-600 cursor-pointer mb-4">
                   {" "}
                   Stoneman Clandestine Ukrainian claims successes against
                   Russian.
@@ -136,7 +129,7 @@ const HomeComponent1 = () => {
               return (
                 <div key={id}>
                   <div className=" flex gap-4 items-center my-3">
-                    <div className=" w-full md:w-[50%] lg:w-full overflow-hidden rounded-lg">
+                    <div className=" w-full md:w-[50%] overflow-hidden rounded-lg">
                       <Image
                         src={url}
                         width={100}
