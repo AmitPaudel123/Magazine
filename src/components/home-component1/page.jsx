@@ -119,6 +119,7 @@ const HomeComponent1 = () => {
               <Image
                 src={news3}
                 width={350}
+                layout="responsive"
                 className=" rounded-lg hover:scale-125 hover:transition-all"
               />
             </div>
@@ -135,12 +136,12 @@ const HomeComponent1 = () => {
               return (
                 <div key={id}>
                   <div className=" flex gap-4 items-center my-3">
-                    <div className=" w-full overflow-hidden rounded-lg">
+                    <div className=" w-full md:w-[50%] lg:w-full overflow-hidden rounded-lg">
                       <Image
                         src={url}
                         width={100}
                         className=" rounded-lg w-full hover:scale-110 hover:transition-all"
-                        layout="intrinsic"
+                        layout="responsive"
                       />
                     </div>
 
