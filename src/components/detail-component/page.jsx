@@ -40,6 +40,7 @@ const DetailPageComponent = () => {
           <div className=" rounded-lg overflow-hidden w-full">
             <Image
               src={detailMainImage}
+              alt="image"
               layout="responsive"
               className=" hover:transition-all hover:scale-110"
             />
@@ -73,29 +74,29 @@ const DetailPageComponent = () => {
           </div>
           <p className=" text-slate-600">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy Lorem
-            Ipsum has been the industry's standard dummy type and scrambled it
-            to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book.
+            industry. Lorem Ipsum has been the industry standard dummy Lorem
+            Ipsum has been the industrys standard dummy type and scrambled it to
+            make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic Lorem Ipsum is simply dummy text
+            of the printing and typesetting industry. Lorem Ipsum has been the
+            industry standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book.
             <br />
             <br />
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic Lorem Ipsum
-            is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
+            industry. Lorem Ipsum has been the industry standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic Lorem Ipsum is
+            simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
             it to make a type specimen book. It has survived not only five
             centuries, but also the leap into electronic Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
+            been the industry standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a
             type specimen book. It has survived not only five centuries, but
             also the leap into electronic
           </p>
@@ -124,16 +125,16 @@ const DetailPageComponent = () => {
           <div className="my-5">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy Lorem
-              Ipsum has been the industry's standard dummy type and scrambled it
+              industry. Lorem Ipsum has been the industrys standard dummy Lorem
+              Ipsum has been the industry standard dummy type and scrambled it
               to make a type specimen book. It has survived not only five
               centuries, but also the leap into electronic Lorem Ipsum is simply
               dummy
               <br />
               <br />
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy Lorem
-              Ipsum has been the industry's standard dummy type and scrambled it
+              industry. Lorem Ipsum has been the industry standard dummy Lorem
+              Ipsum has been the industry standard dummy type and scrambled it
               to make a type specimen book. It has survived not only five
               centuries, but also the leap into electronic Lorem Ipsum is simply
               dummy text of the printing and typesetting industry. Lorem Ipsum
@@ -215,6 +216,7 @@ const DetailPageComponent = () => {
                   <Image
                     src={tagImg2}
                     layout="responsive"
+                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
@@ -239,6 +241,7 @@ const DetailPageComponent = () => {
                   <Image
                     src={tagImg4}
                     layout="responsive"
+                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
@@ -263,6 +266,7 @@ const DetailPageComponent = () => {
                   <Image
                     src={tagImg3}
                     layout="responsive"
+                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
@@ -369,7 +373,12 @@ const DetailPageComponent = () => {
         <div className=" flex flex-wrap flex-col md:flex-row gap-4 py-10">
           <div className=" text-2xl font-semibold">Popular news</div>
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={tagImg4} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={tagImg4}
+            />
             <div className="  absolute ml-[3.2rem] md:ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-7 w-7 md:h-9 md:w-9 flex items-center justify-center">
               3
             </div>
@@ -385,7 +394,12 @@ const DetailPageComponent = () => {
             </div>
           </div>
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={sports} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={sports}
+            />
             <div className=" absolute ml-[3.2rem] md:ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-7 w-7 md:h-9 md:w-9 flex items-center justify-center">
               3
             </div>
@@ -401,7 +415,12 @@ const DetailPageComponent = () => {
             </div>
           </div>
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={technology} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={technology}
+            />
             <div className=" absolute ml-[3.2rem] md:ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-7 w-7 md:h-9 md:w-9 flex items-center justify-center">
               3
             </div>
@@ -417,7 +436,12 @@ const DetailPageComponent = () => {
             </div>
           </div>
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={lifestyle} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={lifestyle}
+            />
             <div className=" absolute ml-[3.2rem] md:ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-7 w-7 md:h-9 md:w-9 flex items-center justify-center">
               3
             </div>

@@ -27,7 +27,12 @@ const HomeBanner = () => {
           </div>
         </div>
         <div>
-          <Image src={bannerImg} width={500} className=" rounded-lg" />
+          <Image
+            src={bannerImg}
+            alt="image"
+            width={500}
+            className=" rounded-lg"
+          />
         </div>
       </div>
     </div>

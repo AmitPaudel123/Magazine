@@ -57,6 +57,7 @@ const HomeComponent1 = () => {
               <Image
                 src={banner1}
                 width={850}
+                alt="image"
                 className=" rounded-lg hover:scale-110 hover:transition-transform"
               />
             </div>
@@ -84,6 +85,7 @@ const HomeComponent1 = () => {
               <div className=" w-full overflow-hidden rounded-lg">
                 <Image
                   src={news2}
+                  alt="image"
                   layout="responsive"
                   className=" rounded-lg hover:transition-all hover:scale-125"
                 />
@@ -112,6 +114,7 @@ const HomeComponent1 = () => {
               <Image
                 src={news3}
                 width={350}
+                alt="image"
                 layout="responsive"
                 className=" rounded-lg hover:scale-125 hover:transition-all"
               />
@@ -132,6 +135,7 @@ const HomeComponent1 = () => {
                     <div className=" w-full md:w-[50%] overflow-hidden rounded-lg">
                       <Image
                         src={url}
+                        alt="image"
                         width={100}
                         className=" rounded-lg w-full hover:scale-110 hover:transition-all"
                         layout="responsive"

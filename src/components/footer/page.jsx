@@ -75,7 +75,12 @@ const Footer = () => {
               <p className=" text-2xl  font-bold mb-5">Recent Posts</p>
               <div className=" flex flex-col gap-4">
                 <div className=" flex items-center gap-6">
-                  <Image width={80} className="rounded-full" src={footer1} />
+                  <Image
+                    width={80}
+                    className="rounded-full"
+                    alt="image"
+                    src={footer1}
+                  />
 
                   <div>
                     <div className=" font-semibold">LIFESTYLE</div>
@@ -90,7 +95,12 @@ const Footer = () => {
                 </div>
 
                 <div className=" flex items-center gap-6">
-                  <Image width={80} className="rounded-full" src={footer2} />
+                  <Image
+                    width={80}
+                    className="rounded-full"
+                    alt="image"
+                    src={footer2}
+                  />
 
                   <div>
                     <div className=" font-semibold">SPORTS</div>
@@ -140,6 +150,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer1}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />
@@ -148,6 +159,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer2}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />
@@ -156,6 +168,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer3}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />
@@ -166,6 +179,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer4}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />
@@ -174,6 +188,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer5}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />
@@ -182,6 +197,7 @@ const Footer = () => {
                     {" "}
                     <Image
                       src={footer6}
+                      alt="image"
                       width={80}
                       className=" rounded-lg hover:scale-110 hover:transition-all"
                     />

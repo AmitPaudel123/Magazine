@@ -48,6 +48,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2">
               <Image
                 src={marqueeImg}
+                alt="image"
                 width={25}
                 className=" rounded-full border-2 border-blue-600"
               />

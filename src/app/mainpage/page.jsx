@@ -19,7 +19,12 @@ const MainPage = () => {
       <div className=" flex flex-wrap flex-col md:flex-row justify-around px-10 md:px-0 gap-4 home-banner py-10">
         <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={fashion} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={fashion}
+            />
             <div className=" absolute ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-9 w-9 flex items-center justify-center">
               3
             </div>
@@ -37,7 +42,12 @@ const MainPage = () => {
             </div>
           </div>
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={sports} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={sports}
+            />
             <div className=" absolute ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-9 w-9 flex items-center justify-center">
               3
             </div>
@@ -57,7 +67,12 @@ const MainPage = () => {
         </div>
         <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={technology} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={technology}
+            />
             <div className=" absolute ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-9 w-9 flex items-center justify-center">
               3
             </div>
@@ -76,7 +91,12 @@ const MainPage = () => {
           </div>
 
           <div className=" flex items-center gap-6">
-            <Image width={80} className="rounded-full" src={lifestyle} />
+            <Image
+              width={80}
+              className="rounded-full"
+              alt="image"
+              src={lifestyle}
+            />
             <div className=" absolute ml-[3.7rem] mt-[-1.5rem] bg-blue-600 text-white border-2 border-white rounded-full h-9 w-9 flex items-center justify-center">
               3
             </div>
