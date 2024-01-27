@@ -28,9 +28,9 @@ const DetailPageComponent = () => {
   const [showTag, setShowTag] = useState(0);
 
   return (
-    <div className=" xl:px-20 md:px-10 px-3 flex flex-col lg:flex-row justify-center gap-6 my-10">
+    <div className=" xl:px-20 md:px-10 flex flex-col lg:flex-row justify-center gap-6 my-10">
       {/* content 1 */}
-      <div className=" mx-auto lg:mx-0 w-[90%] lg:w-[65%]">
+      <div className=" mx-auto lg:mx-0 w-[95%] lg:w-[65%]">
         {/* content 1 sub-content 1 */}
         <div>
           <div className=" text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold hover:text-blue-600 cursor-pointer my-5">
@@ -292,7 +292,7 @@ const DetailPageComponent = () => {
       </div>
 
       {/* content 2 */}
-      <div className=" w-[90%] mx-auto lg:mx-0 h-fit lg:w-[30%] border-[0.5px] p-5 border-slate-500 rounded-lg">
+      <div className=" w-[95%] mx-auto lg:mx-0 h-fit lg:w-[30%] border-[0.5px] p-5 border-slate-500 rounded-lg">
         {/* search bar */}
         <div className="flex w-full mx-auto mb-5">
           <input
@@ -300,7 +300,7 @@ const DetailPageComponent = () => {
             name=""
             id=""
             placeholder="Search..."
-            className=" w-[90%] px-4 py-3 rounded-l-md border-[0.5px] border-slate-500"
+            className=" w-[95%] px-4 py-3 rounded-l-md border-[0.5px] border-slate-500"
           />
           <button className=" bg-blue-600 text-white rounded-r-md px-3">
             <FaSearch />

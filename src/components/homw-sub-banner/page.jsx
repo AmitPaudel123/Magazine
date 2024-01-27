@@ -5,7 +5,7 @@ const HomeBanner = () => {
   return (
     <div>
       <div className=" bg-[blanchedalmond] flex flex-col lg:flex-row gap-6 lg:gap-0 justify-between items-center px-3 md:px-5 lg:px-20 py-10 my-10">
-        <div className=" w-[90%] lg:w-[50%] flex flex-col gap-6">
+        <div className=" w-[95%] lg:w-[50%] flex flex-col gap-6">
           <div className=" text-blue-600 font-bold text-4xl">Newers</div>
           <div className=" text-4xl font-bold">Get Every Weekly Updates</div>
           <div>

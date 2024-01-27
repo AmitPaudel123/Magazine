@@ -14,9 +14,9 @@ import {
 import { IoLocation } from "react-icons/io5";
 const contactPage = () => {
   return (
-    <div className=" bg-slate-200 rounded-lg mx-5 p-6 lg:mx-10 xl:mx-20 my-10 flex flex-col lg:flex-row gap-10">
+    <div className=" bg-slate-200 rounded-lg mx-3 py-6 px-4 lg:mx-10 xl:mx-20 my-10 flex flex-col lg:flex-row gap-10">
       {/* content 1 */}
-      <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[35%]">
+      <div className=" w-[95%] mx-auto lg:mx-0 lg:w-[35%]">
         <div className=" text-4xl font-semibold my-2">
           General costumer care & technical support
         </div>
@@ -39,7 +39,7 @@ const contactPage = () => {
       </div>
 
       {/* content 2 */}
-      <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[60%]">
+      <div className=" w-[95%] mx-auto lg:mx-0 lg:w-[60%]">
         <form action="">
           <div className=" grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-6">
             <input

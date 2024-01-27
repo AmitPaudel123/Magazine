@@ -50,7 +50,7 @@ const HomeComponent1 = () => {
     <div className=" my-10 lg:px-14">
       <div className=" flex flex-col lg:flex-row  justify-between gap-4 lg:px-16">
         {/* content 1 */}
-        <div className=" w-[90%] mx-auto lg:mx-0 lg:w-[75%]">
+        <div className=" w-[95%] mx-auto lg:mx-0 lg:w-[75%]">
           {/* subcontent1 */}
           <div>
             <div className=" overflow-hidden rounded-lg">
@@ -108,7 +108,7 @@ const HomeComponent1 = () => {
         </div>
 
         {/* content2 */}
-        <div className="w-[90%] lg:w-fit mx-auto lg:mx-0 bg-slate-200 rounded-lg p-5">
+        <div className="w-[95%] lg:w-fit mx-auto lg:mx-0 bg-slate-200 rounded-lg p-5">
           <div>
             <div className=" w-full overflow-hidden rounded-lg">
               <Image
