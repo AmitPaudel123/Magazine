@@ -16,8 +16,8 @@ const MainPage = () => {
   return (
     <>
       {/* image banner */}
-      <div className=" flex flex-wrap flex-col md:flex-row justify-around px-10 md:px-0 gap-4 home-banner py-10">
-        <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
+      <div className=" grid lg:grid-flow-col px-10  gap-4 home-banner py-10">
+        <div className=" grid md:grid-flow-col">
           <div className=" flex items-center gap-6">
             <Image
               width={80}
@@ -33,7 +33,7 @@ const MainPage = () => {
                 FASHION
               </div>
               <div className=" font-bold">
-                Get the best speak <br /> market, news.
+                Get the best speak <br className=" hidden md:block"/> market, news.
               </div>
               <div className=" flex items-center gap-2 text-slate-600">
                 <BsCalendar2DateFill />
@@ -56,7 +56,7 @@ const MainPage = () => {
                 SPORTS
               </div>
               <div className=" font-bold">
-                Get the best speak <br /> market, news.
+                Get the best speak <br className=" hidden md:block"/> market, news.
               </div>
               <div className=" flex items-center gap-2 text-slate-600">
                 <BsCalendar2DateFill />
@@ -65,7 +65,7 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-        <div className=" flex items-center gap-8 justify-around w-[45%] flex-wrap flex-col md:flex-row">
+        <div className="grid md:grid-flow-col">
           <div className=" flex items-center gap-6">
             <Image
               width={80}
@@ -81,7 +81,7 @@ const MainPage = () => {
                 TECHNOLOGY
               </div>
               <div className=" font-bold">
-                Get the best speak <br /> market, news.
+                Get the best speak <br className=" hidden md:block"/> market, news.
               </div>
               <div className=" flex items-center gap-2 text-slate-600">
                 <BsCalendar2DateFill />
@@ -105,7 +105,7 @@ const MainPage = () => {
                 LIFESTYLE
               </div>
               <div className=" font-bold">
-                Get the best speak <br /> market, news.
+                Get the best speak <br className=" hidden md:block"/> market, news.
               </div>
               <div className=" flex items-center gap-2 text-slate-600">
                 <BsCalendar2DateFill />

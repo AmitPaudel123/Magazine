@@ -37,9 +37,16 @@
   width: fit-content;
 }
 
+
 .detail-banner {
   background-image: linear-gradient(
     rgba(20, 20, 251, 0.42),
     rgba(255, 255, 255, 0.434)
   );
+}
+
+@media screen and (max-width: 760px) {
+  .slick-slide > div {
+    margin: 0 auto; /* Set margin to 0 for screens less than 760px */
+  }
 }

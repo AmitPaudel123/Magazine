@@ -134,7 +134,7 @@ const HomeSlider = () => {
             const { id, url, title, author, date } = detail;
 
             return (
-              <div key={id}>
+              <div key={id} className=" mx-auto">
                 <div className=" overflow-hidden rounded-lg">
                   <Image
                     src={url}
@@ -146,9 +146,9 @@ const HomeSlider = () => {
                 <div className="text:xl md:text-2xl  font-semibold py-2 px-3 hover:text-blue-600 cursor-pointer">
                   {title}
                 </div>
-                <div className=" flex justify-between my-2 px-3">
+                <div className=" flex justify-between items-center gap-2 my-2 px-3">
                   <div>By {author}</div>
-                  <div className=" flex gap-2">
+                  <div className=" flex items-center gap-1 md:gap-2">
                     <FaCalendar />
                     <div>{date}</div>
                   </div>

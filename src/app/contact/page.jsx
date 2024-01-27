@@ -7,13 +7,7 @@ import { FaShareAlt } from "react-icons/fa";
 import mapImage from "/public/map.jpg";
 import {
   FaFacebookF,
-  FaLinkedin,
   FaLinkedinIn,
-  FaLocationArrow,
-  FaLocationPin,
-  FaMapLocation,
-  FaMessage,
-  FaRegMessage,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa6";

@@ -240,14 +240,15 @@ const DetailPageComponent = () => {
               <div className=" flex flex-col md:flex-row items-center justify-center gap-4 ">
                 <div className=" w-full md:w-[35%] mx-auto md:mx-0 overflow-hidden rounded-lg">
                   <Image
-                    src={tagImg4}
+                    src={tagImg3}
                     objectFit="cover"
-                    objectPosition="center center"                    alt="image"
+                    objectPosition="center center"                 
+                     alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
                 <div className=" w-full mx-auto md:mx-0 md:w-[60%]">
-                  <div className=" text-xl font-semibold">Ellyse Perry</div>
+                  <div className=" text-xl font-semibold">Smriti Mandhana</div>
                   <div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                     illo tempora id! Fugit temporibus minus blanditiis labore
@@ -265,14 +266,15 @@ const DetailPageComponent = () => {
               <div className=" flex flex-col md:flex-row items-center justify-center gap-4 ">
                 <div className=" w-full md:w-[35%] mx-auto md:mx-0 overflow-hidden rounded-lg">
                   <Image
-                    src={tagImg3}
+                    src={tagImg2}
                     objectFit="cover"
-                    objectPosition="center center"                    alt="image"
+                    objectPosition="center center"                    
+                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
                 <div className=" w-full mx-auto md:mx-0 md:w-[60%]">
-                  <div className=" text-xl font-semibold">Ellyse Perry</div>
+                  <div className=" text-xl font-semibold">Alexa Bliss</div>
                   <div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                     illo tempora id! Fugit temporibus minus blanditiis labore
