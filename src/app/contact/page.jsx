@@ -37,8 +37,9 @@ const contactPage = () => {
         <Image
           src={mapImage}
           alt="image"
-          layout="intrinsic"
-          width={450}
+          objectFit="cover"
+          objectPosition="center center"        
+            width={450}
           className=" rounded-lg"
         />
       </div>

@@ -4,13 +4,16 @@ import { useState } from "react";
 const GoToTop = () => {
   //scroll to top functoinality
   const [topBtn, setTopBtn] = useState({ display: "none" });
-  window.addEventListener("scroll", () => {
-    if (document.documentElement.scrollTop > 150) {
-      setTopBtn({ display: "block" });
-    } else {
-      setTopBtn({ display: "none" });
-    }
-  });
+  if (typeof window !== 'undefined') {
+    window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop > 150) {
+        setTopBtn({ display: "block" });
+      } else {
+        setTopBtn({ display: "none" });
+      }
+    });
+  }
+  
   const handleScrollTop = () => {
     window.scrollTo({
       top: 0,

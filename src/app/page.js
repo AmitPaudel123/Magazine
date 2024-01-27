@@ -1,6 +1,5 @@
 "use client";
 // import { Main } from "next/document";
-import React, { useState } from "react";
 import MainPage from "./mainpage/page";
 // import { useAmp } from "next/amp";
 

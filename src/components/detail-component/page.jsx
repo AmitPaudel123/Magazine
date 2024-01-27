@@ -41,8 +41,9 @@ const DetailPageComponent = () => {
             <Image
               src={detailMainImage}
               alt="image"
-              layout="responsive"
-              className=" hover:transition-all hover:scale-110"
+              objectFit="cover"
+              objectPosition="center center"
+                className=" hover:transition-all hover:scale-110"
             />
           </div>
 
@@ -109,16 +110,16 @@ const DetailPageComponent = () => {
               <Image
                 src={news5}
                 alt="image"
-                layout="responsive"
-                className=" hover:transition-all hover:scale-110"
+                objectFit="cover"
+                objectPosition="center center"                className=" hover:transition-all hover:scale-110"
               />
             </div>
             <div className=" w-[48%] overflow-hidden rounded-lg">
               <Image
                 src={news6}
                 alt="image"
-                layout="responsive"
-                className=" hover:transition-all hover:scale-110"
+                objectFit="cover"
+                objectPosition="center center"                className=" hover:transition-all hover:scale-110"
               />
             </div>
           </div>
@@ -215,8 +216,8 @@ const DetailPageComponent = () => {
                 <div className=" w-full md:w-[35%] mx-auto md:mx-0 overflow-hidden rounded-lg">
                   <Image
                     src={tagImg2}
-                    layout="responsive"
-                    alt="image"
+                    objectFit="cover"
+                    objectPosition="center center"                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
@@ -240,8 +241,8 @@ const DetailPageComponent = () => {
                 <div className=" w-full md:w-[35%] mx-auto md:mx-0 overflow-hidden rounded-lg">
                   <Image
                     src={tagImg4}
-                    layout="responsive"
-                    alt="image"
+                    objectFit="cover"
+                    objectPosition="center center"                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
@@ -265,8 +266,8 @@ const DetailPageComponent = () => {
                 <div className=" w-full md:w-[35%] mx-auto md:mx-0 overflow-hidden rounded-lg">
                   <Image
                     src={tagImg3}
-                    layout="responsive"
-                    alt="image"
+                    objectFit="cover"
+                    objectPosition="center center"                    alt="image"
                     className=" hover:scale-110 hover:transition-all"
                   />
                 </div>
